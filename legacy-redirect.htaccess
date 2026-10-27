@@ -1,0 +1,38 @@
+DirectoryIndex index.php
+
+# 站点已迁到 https://yubai.66ghz.com，旧地址整体 301，保留路径与查询串。
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} !^yubai\.66ghz\.com$ [NC]
+  RewriteRule ^ https://yubai.66ghz.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# 让 cache/ 与 data/ 只能被 PHP 读取，不能直接访问。
+<IfModule mod_alias.c>
+  RedirectMatch 404 (?i)^/(cache|data)/
+</IfModule>
+
+# 配置与抓取逻辑不需要被浏览器访问。
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(config\.php|lib\.php)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <FilesMatch "^(config\.php|lib\.php)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 7 days"
+</IfModule>

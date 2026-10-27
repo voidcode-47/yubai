@@ -1,0 +1,68 @@
+name: build-and-publish
+
+on:
+  schedule:
+    # 01:05 UTC = 北京时间 09:05，给抓取和部署留几分钟余量。
+    - cron: '5 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      MARGINALIA_STATIC: '1'
+      MARGINALIA_SITE_URL: https://voidcode-47.github.io
+      MARGINALIA_BASE_PATH: /yubai
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: curl, mbstring, xml, dom, openssl
+          coverage: none
+
+      - name: Build today's issue
+        run: php bin/build-issue.php
+
+      - name: Export static site
+        run: php bin/export-static.php dist
+
+      - name: Persist issue cache
+        run: |
+          git config user.name "yubai-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add deploy/cache
+          if git diff --cached --quiet; then
+            echo "cache unchanged"
+          else
+            git commit -m "content: $(date -u +%F)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

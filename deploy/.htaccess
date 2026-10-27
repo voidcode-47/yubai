@@ -1,0 +1,45 @@
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # 往期固定地址：/issue/2026-10-27/，没有尾斜杠时先补上，避免相对路径失效。
+  RewriteCond %{REQUEST_URI} ^/issue/\d{4}-\d{2}-\d{2}$
+  RewriteRule ^issue/(\d{4}-\d{2}-\d{2})$ https://%{HTTP_HOST}/issue/$1/ [R=301,L]
+  RewriteRule ^issue/(\d{4}-\d{2}-\d{2})/?$ index.php?date=$1 [L,QSA]
+
+  # 订阅地址固定为 /feed.xml，实际由 feed.php 生成。
+  RewriteRule ^feed\.xml$ feed.php [L]
+</IfModule>
+
+# 让 cache/ 与 data/ 只能被 PHP 读取，不能直接访问。
+<IfModule mod_alias.c>
+  RedirectMatch 404 (?i)^/(cache|data)/
+</IfModule>
+
+# 配置与抓取逻辑不需要被浏览器访问。
+<IfModule mod_authz_core.c>
+  <FilesMatch "^(config\.php|lib\.php)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <FilesMatch "^(config\.php|lib\.php)$">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 7 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 30 days"
+</IfModule>
