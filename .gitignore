@@ -1,0 +1,17 @@
+# 本地草稿与构建产物
+_shots/
+dist/
+deploy.zip
+*.log
+
+# 预览用的临时副本
+preview/
+buildtest/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 抓取日志与锁文件
+deploy/cache/error.log
+deploy/cache/build.lock
