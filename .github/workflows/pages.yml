@@ -66,3 +66,35 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Smoke test the published site
+        run: |
+          set -euo pipefail
+          base="https://voidcode-47.github.io/yubai"
+          today=$(date -u -d '+8 hours' +%F)
+
+          for attempt in 1 2 3 4 5; do
+            code=$(curl -s -o /tmp/home.html -w '%{http_code}' "$base/")
+            if [ "$code" = "200" ] && grep -q 'class="pick' /tmp/home.html; then
+              break
+            fi
+            echo "attempt $attempt: HTTP $code, retrying"
+            sleep 15
+          done
+
+          grep -q '余白' /tmp/home.html
+          grep -q 'MARGINALIA' /tmp/home.html
+          ! grep -q 'refresh.php' /tmp/home.html
+          picks=$(grep -o 'class="pick' /tmp/home.html | wc -l)
+          test "$picks" -ge 10
+
+          curl -fsS "$base/issue/${today}/" | grep -q 'class="pick'
+          curl -fsS "$base/feed.xml" | grep -q '<rss'
+          curl -fsS "$base/assets/style.css" | grep -q '余白\|--ink'
+
+          echo "published site OK: $base/ ($today)"
+
