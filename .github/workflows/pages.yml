@@ -92,9 +92,17 @@ jobs:
           picks=$(grep -o 'class="pick' /tmp/home.html | wc -l)
           test "$picks" -ge 10
 
-          curl -fsS "$base/issue/${today}/" | grep -q 'class="pick'
-          curl -fsS "$base/feed.xml" | grep -q '<rss'
-          curl -fsS "$base/assets/style.css" | grep -q '余白\|--ink'
+          curl -fsS "$base/issue/${today}/" -o /tmp/issue.html
+          grep -q 'class="pick' /tmp/issue.html
+
+          curl -fsS "$base/feed.xml" -o /tmp/feed.xml
+          grep -q '<rss' /tmp/feed.xml
+
+          curl -fsS "$base/assets/style.css" -o /tmp/style.css
+          grep -q -- '--ink' /tmp/style.css
+
+          no_slash=$(curl -s -o /dev/null -w '%{http_code}' "$base/issue/${today}")
+          test "$no_slash" = "200" || test "$no_slash" = "301"
 
           echo "published site OK: $base/ ($today)"
 
