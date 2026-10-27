@@ -587,7 +587,7 @@ if (!headers_sent()) {
         <div class="method-grid">
           <div>
             <p class="method-statement">把一点好奇，<br>每天收进一页。</p>
-            <p class="method-body">项目来自 Hacker News 的 Show HN、GitHub Trending、Product Hunt、Awwwards，以及一份长期可读的常青拾遗。新闻来自中国新闻网、爱范儿、少数派、联合国新闻等公开订阅源。某个来源失效时，页面会用其他来源或常青内容补位，并在上方标注。每期有固定地址，也可以从 <a href="<?= marginalia_esc(marginalia_link('/feed.xml')) ?>">/feed.xml</a> 订阅。</p>
+            <p class="method-body">项目来自 Hacker News 的 Show HN、GitHub Trending、Product Hunt、Awwwards，以及一份长期可读的常青拾遗。新闻来自中国新闻网、爱范儿、钛媒体、联合国新闻等公开订阅源。某个来源失效时，页面会用其他来源或常青内容补位，并在上方标注。每期有固定地址，也可以从 <a href="<?= marginalia_esc(marginalia_link('/feed.xml')) ?>">/feed.xml</a> 订阅。</p>
           </div>
           <div class="principles">
             <div class="principle">

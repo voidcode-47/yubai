@@ -213,9 +213,9 @@ curl.exe -A "Mozilla/5.0 ... Chrome/130.0 Safari/537.36" `
 
 新闻来源：
 
-- 国内：中国新闻网时政 / 即时、爱范儿、少数派；
+- 国内：中国新闻网时政 / 即时 / 要闻、爱范儿、钛媒体；少数派是文章站（社区速递、教程居多），`enabled => false`。
 - 国际：中国新闻网国际、联合国新闻中文；CGTN、NPR 只在中文源不足时用英文补位。
-- 同一来源默认最多取 2 条（`filters.news_per_source_cap`），超出的先让给下一家；确实凑不齐时才放宽。
+- 同一来源默认最多取 2 条（`filters.news_per_source_cap`），超出的先让给下一家；确实凑不齐时才放宽。多个中新网 feed 共用「中国新闻网」这个 label，所以它们合计也不超过 2 条。
 - 界面新闻的 RSS 从目标主机连续多次 8 秒超时，`config.php` 里默认 `enabled => false`；本地能取到，但线上不可达，所以方法页不再把它写成现有来源。恢复后改回 `true` 并加回 `$newsCnOrder` 即可。
 - 新闻只保留 24 小时内（`filters.news_max_age_hours`）的条目，宁可少几条也不混入旧闻。
 - HN 条目要满足“分数 ≥ 10 或评论 ≥ 5”（`filters.hn_min_points` / `hn_min_comments`），不再把刚发出来的低分帖当精选。

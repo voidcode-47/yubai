@@ -2240,7 +2240,7 @@ function marginalia_build_issue(string $date, bool $force = false)
     }
 
     $projects = marginalia_select_projects($projectBuckets, $date);
-    $newsCnOrder = ['chinanews_china', 'ifanr', 'chinanews_scroll'];
+    $newsCnOrder = ['chinanews_china', 'ifanr', 'tmtpost', 'chinanews_import', 'chinanews_scroll'];
     $newsIntlPrimary = ['chinanews_world', 'un_news_zh'];
     $newsIntlFallback = ['cgtn_world', 'npr_world'];
     $newsCap = (int) marginalia_config('filters.news_per_source_cap');

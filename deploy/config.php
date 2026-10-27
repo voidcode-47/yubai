@@ -116,6 +116,25 @@ return [
                 'fallback' => false,
                 'enabled'  => true,
             ],
+            // 要闻版比滚动版更偏硬消息，和上面两个中新网源共用「中国新闻网」
+            // 这个 label，因此仍受每源 2 条的上限约束。
+            'chinanews_import' => [
+                'type'     => 'rss',
+                'label'    => '中国新闻网',
+                'url'      => 'https://www.chinanews.com.cn/rss/importnews.xml',
+                'lang'     => 'zh',
+                'fallback' => false,
+                'enabled'  => true,
+            ],
+            // 商业 / 科技消息，补足国内版只有中新网 + 爱范儿两家的单薄。
+            'tmtpost' => [
+                'type'     => 'rss',
+                'label'    => '钛媒体',
+                'url'      => 'https://www.tmtpost.com/rss',
+                'lang'     => 'zh',
+                'fallback' => false,
+                'enabled'  => true,
+            ],
             'jiemian' => [
                 'type'     => 'rss',
                 'label'    => '界面新闻',
