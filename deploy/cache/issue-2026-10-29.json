@@ -1,0 +1,678 @@
+{
+    "date": "2026-10-29",
+    "issue": 3,
+    "weekday": "周四",
+    "theme": "周四 · 常规抓取",
+    "generated_at": "2026-10-29T14:57:17+08:00",
+    "updated_at": "2026-10-29T14:57:17+08:00",
+    "degraded": false,
+    "counts": {
+        "projects": 20,
+        "news_cn": 5,
+        "news_intl": 5
+    },
+    "projects": [
+        {
+            "title": "SlideBySide",
+            "url": "https://slidebyside.com/",
+            "description": "Present slides without sharing your screen",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "69 分 · 27 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 802,
+            "published": 1793207229,
+            "discuss_url": "https://news.ycombinator.com/item?id=50276883",
+            "domain": "slidebyside.com",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 1,
+            "category": "use"
+        },
+        {
+            "title": "DeepTutor",
+            "url": "https://github.com/HKUDS/DeepTutor",
+            "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,371 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 102371,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/HKUDS/DeepTutor",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 2,
+            "category": "build"
+        },
+        {
+            "title": "WebAI by Opera",
+            "url": "https://www.producthunt.com/products/opera",
+            "description": "Let websites use AI running on your computer",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.28",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 776939,
+            "published": 1793169975,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/opera",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 3,
+            "category": "use"
+        },
+        {
+            "title": "G. Colombel — Portfolio 2026",
+            "url": "https://guillaumecolombel.fr/",
+            "description": "Portfolio of Guillaume Colombel, freelance interactive developer. Specializing in immersive web experiences and creative websites. Based in Paris, available worldwide.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 493364,
+            "published": 1793145600,
+            "discuss_url": "",
+            "domain": "guillaumecolombel.fr",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 4,
+            "category": "see"
+        },
+        {
+            "title": "Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
+            "url": "https://yavashark.dev/blog/announcing-yavashark/",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "27 分 · 3 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 332,
+            "published": 1793197949,
+            "discuss_url": "https://news.ycombinator.com/item?id=50274300",
+            "domain": "yavashark.dev",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 5,
+            "category": "use"
+        },
+        {
+            "title": "ai-design-skills",
+            "url": "https://github.com/elayadesign/ai-design-skills",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,139 星",
+            "tags": [
+                "开源",
+                "Trending"
+            ],
+            "score": 102139,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/elayadesign/ai-design-skills",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 6,
+            "category": "build"
+        },
+        {
+            "title": "OpenLLM",
+            "url": "https://www.producthunt.com/products/openllm",
+            "description": "Take your AI tokens anywhere",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.28",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 775061,
+            "published": 1793168097,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/openllm",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 7,
+            "category": "use"
+        },
+        {
+            "title": "Awards Racing",
+            "url": "https://awards.racing/",
+            "description": "A browser drift-racer built with three.js and Bullet physics, mixing arcade racing with vehicular combat in a design-world setting: a young nominee racing to the top, dodging angry jurors and rivals. Physics-driven VFX,…",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 406964,
+            "published": 1793059200,
+            "discuss_url": "",
+            "domain": "awards.racing",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 8,
+            "category": "see"
+        },
+        {
+            "title": "hallmark",
+            "url": "https://github.com/Nutlope/hallmark",
+            "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,110 星 · CSS",
+            "tags": [
+                "开源",
+                "Trending",
+                "CSS"
+            ],
+            "score": 102110,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/Nutlope/hallmark",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 9,
+            "category": "build"
+        },
+        {
+            "title": "licenseal",
+            "url": "https://www.producthunt.com/products/licenseal",
+            "description": "Catch incompatible dependency licenses before release",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.28",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 761463,
+            "published": 1793154499,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/licenseal",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 10,
+            "category": "use"
+        },
+        {
+            "title": "A24",
+            "url": "https://a24.raviklaassens.com/",
+            "description": "An experimental, non-commercial project reimagining A24’s filmography through a 3D disc-based experience built around discovering its standout titles.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 320564,
+            "published": 1792972800,
+            "discuss_url": "",
+            "domain": "a24.raviklaassens.com",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 11,
+            "category": "see"
+        },
+        {
+            "title": "LinkSwift",
+            "url": "https://github.com/hmjz100/LinkSwift",
+            "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+            "description_lang": "zh",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,616 星 · JavaScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "JavaScript"
+            ],
+            "score": 101616,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/hmjz100/LinkSwift",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 12,
+            "category": "build"
+        },
+        {
+            "title": "Dedica",
+            "url": "https://www.producthunt.com/products/dedica",
+            "description": "Check if AI agents can use your website",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.28",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 755299,
+            "published": 1793148335,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/dedica",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 13,
+            "category": "use"
+        },
+        {
+            "title": "Forge Automotive",
+            "url": "https://forgeautomotive.co.uk/",
+            "description": "A performance atelier creating bespoke vehicles through bodywork, interiors, wheels, lighting, exhaust and PPF",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 234164,
+            "published": 1792886400,
+            "discuss_url": "",
+            "domain": "forgeautomotive.co.uk",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 14,
+            "category": "see"
+        },
+        {
+            "title": "jailbreaks",
+            "url": "https://github.com/togg53192-cmd/jailbreaks",
+            "description": "LIST OF ALL MY JAILBREAKS",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,477 星",
+            "tags": [
+                "开源",
+                "Trending"
+            ],
+            "score": 101477,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/togg53192-cmd/jailbreaks",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 15,
+            "category": "build"
+        },
+        {
+            "title": "Basedash View-only members",
+            "url": "https://www.producthunt.com/products/basedash",
+            "description": "Share dashboards with anyone. They can look, not edit.",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.28",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 743358,
+            "published": 1793136394,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/basedash",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 16,
+            "category": "use"
+        },
+        {
+            "title": "impeccable",
+            "url": "https://github.com/pbakaus/impeccable",
+            "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,472 星 · Rust",
+            "tags": [
+                "开源",
+                "Trending",
+                "Rust"
+            ],
+            "score": 101472,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/pbakaus/impeccable",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 17,
+            "category": "build"
+        },
+        {
+            "title": "Congress Trades",
+            "url": "https://www.producthunt.com/products/alpha-vantage",
+            "description": "See how Congress members trade, and if copying them pays off",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.28",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 739586,
+            "published": 1793132622,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/alpha-vantage",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 18,
+            "category": "use"
+        },
+        {
+            "title": "superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "description": "An agentic skills framework & software development methodology that works.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,095 星 · Shell",
+            "tags": [
+                "开源",
+                "Trending",
+                "Shell"
+            ],
+            "score": 101095,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/obra/superpowers",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 19,
+            "category": "build"
+        },
+        {
+            "title": "thinkrail",
+            "url": "https://github.com/JetBrains/thinkrail",
+            "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,068 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 101068,
+            "published": 1793257036,
+            "discuss_url": "",
+            "domain": "github.com/JetBrains/thinkrail",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 20,
+            "category": "build"
+        }
+    ],
+    "news_cn": [
+        {
+            "title": "第十七届海峡两岸（厦门）文化产业博览交易会开幕",
+            "url": "https://www.chinanews.com.cn/gn/2026/10-29/10722708.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_china",
+            "lang": "zh",
+            "published": 1793256543,
+            "time_label": "14:49"
+        },
+        {
+            "title": "这届中产父母的AI焦虑，标价13800元",
+            "url": "https://www.tmtpost.com/8185944.html",
+            "source": "钛媒体",
+            "source_key": "tmtpost",
+            "lang": "zh",
+            "published": 1793254500,
+            "time_label": "14:15"
+        },
+        {
+            "title": "所罗门群岛总理被送往澳大利亚接受紧急治疗",
+            "url": "https://www.chinanews.com.cn/gj/2026/10-29/10722675.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_import",
+            "lang": "zh",
+            "published": 1793254111,
+            "time_label": "14:08"
+        },
+        {
+            "title": "实测即梦短剧工作室，这可能是 Seedance 2.5 最有性价比的用法",
+            "url": "https://www.ifanr.com/1686343",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1793246546,
+            "time_label": "12:02"
+        },
+        {
+            "title": "早报｜触屏MacBook Pro发布，发光logo回归/Gemini 4 Carbon发布，超越Opus 5.5/马斯克招寿司厨师，每天需能站立10小时",
+            "url": "https://www.ifanr.com/1686590",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1793232032,
+            "time_label": "08:00"
+        }
+    ],
+    "news_intl": [
+        {
+            "title": "所罗门群岛总理被送往澳大利亚接受紧急治疗",
+            "url": "https://www.chinanews.com.cn/gj/2026/10-29/10722675.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1793254111,
+            "time_label": "14:08"
+        },
+        {
+            "title": "“2026中韩生物医药产业对接活动”在首尔举办",
+            "url": "https://www.chinanews.com.cn/gj/2026/10-29/10722652.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1793253963,
+            "time_label": "14:06"
+        },
+        {
+            "title": "Russia warns Japan over 'historical distortions' in films",
+            "url": "https://news.cgtn.com/news/2026-10-29/Russia-warns-Japan-over-historical-distortions-in-films-1RD6NpfQFG0/p.html",
+            "source": "CGTN",
+            "source_key": "cgtn_world",
+            "lang": "en",
+            "published": 1793241265,
+            "time_label": "10:34"
+        },
+        {
+            "title": "苏丹平民面临无人机袭击与任意逮捕双重威胁",
+            "url": "https://news.un.org/feed/view/zh/story/2026/10/1143089",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1793188800,
+            "time_label": "10.28 20:00"
+        },
+        {
+            "title": "粮食署新任执行主任：结束冲突是缓解全球饥饿问题的关键",
+            "url": "https://news.un.org/feed/view/zh/story/2026/10/1143088",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1793188800,
+            "time_label": "10.28 20:00"
+        }
+    ],
+    "sources": {
+        "project_hn": {
+            "label": "Hacker News",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 2,
+            "bytes": 152516,
+            "ms": 396,
+            "error": ""
+        },
+        "project_github_trending": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 14,
+            "bytes": 578549,
+            "ms": 1531,
+            "error": ""
+        },
+        "project_github": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 40,
+            "bytes": 279081,
+            "ms": 1100,
+            "error": ""
+        },
+        "project_ph": {
+            "label": "Product Hunt",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 30,
+            "bytes": 43749,
+            "ms": 102,
+            "error": ""
+        },
+        "project_awwwards": {
+            "label": "Awwwards",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 18639,
+            "ms": 493,
+            "error": ""
+        },
+        "news_chinanews_china": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 26,
+            "bytes": 16683,
+            "ms": 861,
+            "error": ""
+        },
+        "news_chinanews_scroll": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 28,
+            "bytes": 14306,
+            "ms": 1084,
+            "error": ""
+        },
+        "news_chinanews_import": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 28,
+            "bytes": 15211,
+            "ms": 1133,
+            "error": ""
+        },
+        "news_tmtpost": {
+            "label": "钛媒体",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 18,
+            "bytes": 277885,
+            "ms": 2324,
+            "error": ""
+        },
+        "news_ifanr": {
+            "label": "爱范儿",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 10,
+            "bytes": 448873,
+            "ms": 2093,
+            "error": ""
+        },
+        "news_chinanews_world": {
+            "label": "中国新闻网",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 30,
+            "bytes": 15040,
+            "ms": 1109,
+            "error": ""
+        },
+        "news_un_news_zh": {
+            "label": "联合国新闻",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 36590,
+            "ms": 117,
+            "error": ""
+        },
+        "news_cgtn_world": {
+            "label": "CGTN",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 22,
+            "bytes": 179327,
+            "ms": 235,
+            "error": ""
+        },
+        "news_npr_world": {
+            "label": "NPR World",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 8,
+            "bytes": 14333,
+            "ms": 273,
+            "error": ""
+        }
+    },
+    "errors": [],
+    "build_ms": 3088
+}
