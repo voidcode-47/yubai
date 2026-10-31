@@ -331,7 +331,7 @@ PHP 站点继续留在 InfinityFree，同时仓库里有一套静态发布流程
 
 - 线上地址：<https://voidcode-47.github.io/yubai/>
 - 仓库：`voidcode-47/yubai`，工作流在 `.github/workflows/pages.yml`
-- 每天 01:05 UTC（北京时间 09:05）自动跑一次，也可以在 Actions 页面手动触发。GitHub 的定时任务偶尔会延迟，严重时可达数小时；PHP 站另有 cron 和访客兜底，两边不共享同一条时间线。
+- 每天 01:05 / 03:05 / 13:05 UTC（北京时间 09:05 / 11:05 / 21:05）各跑一次，后两次是兜底；当天已有缓存时只重新导出，不会重复抓取。也可以在 Actions 页面手动触发。GitHub 的定时任务偶尔会延迟，严重时可达数小时；PHP 站另有 cron、访客和补档机制，两边不共享同一条时间线。
 - 产物：`dist/index.html`（最新一期）、`dist/issue/<日期>/index.html`（每期固定地址）、`dist/feed.xml`、`dist/assets/`
 - 每期缓存 `deploy/cache/issue-*.json` 会由工作流提交回仓库，存档和 RSS 才有多期可读
 - `deploy/cache/archive.json` 是所有可用期的清单（`{"dates":[...]}`），PHP 站靠它补档

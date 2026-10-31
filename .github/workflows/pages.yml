@@ -2,8 +2,12 @@ name: build-and-publish
 
 on:
   schedule:
-    # 01:05 UTC = 北京时间 09:05，给抓取和部署留几分钟余量。
+    # 01:05 UTC = 北京时间 09:05。GitHub 的定时任务可能延迟数小时，
+    # 所以再加两次兜底：11:05 和 21:05（北京时间）。当天已有缓存时
+    # build-issue.php 会直接跳过，只重新导出，成本很低。
     - cron: '5 1 * * *'
+    - cron: '5 3 * * *'
+    - cron: '5 13 * * *'
   workflow_dispatch:
   push:
     branches: [main]
