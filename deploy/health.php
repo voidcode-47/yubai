@@ -48,6 +48,10 @@ unset($data['cache_dir']);
 $latest = marginalia_latest_issue();
 $data['archive_days'] = count(marginalia_archive_dates(0));
 $data['refresh_key'] = (string) marginalia_config('refresh.key') === '' ? 'empty' : 'set';
+$data['mirror'] = [
+    'enabled' => marginalia_mirror_ready(),
+    'state'   => marginalia_mirror_state(),
+];
 $data['sources'] = $latest && !empty($latest['sources']) && is_array($latest['sources']) ? $latest['sources'] : [];
 $data['issue_errors'] = $latest && !empty($latest['errors']) && is_array($latest['errors'])
     ? array_slice($latest['errors'], 0, 15)
@@ -206,6 +210,18 @@ if ($format === 'html') {
         <tr><th>时区 / 现在</th><td><?= marginalia_esc((string) ($data['timezone'] ?? '')) ?> · <?= marginalia_esc((string) ($data['now'] ?? '')) ?></td></tr>
         <tr><th>下一期</th><td><?= marginalia_esc((string) ($data['next_drop_iso'] ?? '')) ?></td></tr>
         <tr><th>refresh key</th><td><?= ($data['refresh_key'] ?? '') === 'set' ? '已设置' : '<span class="no">为空（force 已关闭）</span>' ?></td></tr>
+        <?php
+        $mirrorState = isset($data['mirror']['state']) && is_array($data['mirror']['state']) ? $data['mirror']['state'] : [];
+        $mirrorText = !empty($data['mirror']['enabled']) ? '已开启' : '关闭';
+        if (!empty($mirrorState['archive_ok_at'])) {
+            $mirrorText .= ' · 上次补档 ' . date('m-d H:i', (int) $mirrorState['archive_ok_at'])
+                . '，补 ' . (int) ($mirrorState['archive_imported'] ?? 0) . ' 期';
+        }
+        if (!empty($mirrorState['archive_error'])) {
+            $mirrorText .= ' · ' . (string) $mirrorState['archive_error'];
+        }
+        ?>
+        <tr><th>补档（静态站）</th><td><?= marginalia_esc($mirrorText) ?></td></tr>
       </tbody>
     </table>
 
