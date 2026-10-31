@@ -15,3 +15,4 @@ Thumbs.db
 # 抓取日志与锁文件
 deploy/cache/error.log
 deploy/cache/build.lock
+deploy/cache/mirror.json

@@ -352,6 +352,218 @@ function marginalia_prune_issues(): void
 }
 
 /* -------------------------------------------------------------------------
+ * 补档：从静态站（GitHub Actions 的产物）取回缺掉的期
+ * ---------------------------------------------------------------------- */
+
+/**
+ * 镜像是否可用。静态导出时一定关闭：导出脚本会包含 index.php，
+ * 不能在构建机上去访问网络或改动 cache。
+ */
+function marginalia_mirror_ready(): bool
+{
+    if (marginalia_config('site.static')) {
+        return false;
+    }
+    return (bool) marginalia_config('mirror.enabled');
+}
+
+function marginalia_mirror_state_path(): string
+{
+    return marginalia_cache_dir() . '/mirror.json';
+}
+
+function marginalia_mirror_state(): array
+{
+    $state = marginalia_read_json(marginalia_mirror_state_path());
+    return is_array($state) ? $state : [];
+}
+
+function marginalia_mirror_state_save(array $state): void
+{
+    // 只是运行状态，写失败不影响页面。
+    @marginalia_atomic_write(
+        marginalia_mirror_state_path(),
+        json_encode($state, marginalia_json_flags())
+    );
+}
+
+/** 配置里可以写单个地址，也可以写一组按顺序重试的地址。 */
+function marginalia_mirror_urls(string $key, string $date = ''): array
+{
+    $value = marginalia_config('mirror.' . $key);
+    if (is_string($value)) {
+        $value = [$value];
+    }
+    if (!is_array($value)) {
+        return [];
+    }
+    $out = [];
+    foreach ($value as $url) {
+        $url = trim((string) $url);
+        if ($url === '') {
+            continue;
+        }
+        if ($date !== '') {
+            $url = str_replace('{date}', $date, $url);
+        }
+        $out[] = $url;
+    }
+    return $out;
+}
+
+/** 依次尝试镜像地址，第一个成功的就返回。 */
+function marginalia_mirror_get(array $urls, float $timeout): ?string
+{
+    foreach ($urls as $url) {
+        $response = marginalia_http_single($url, $timeout);
+        if (!empty($response['ok'])) {
+            return (string) $response['body'];
+        }
+    }
+    return null;
+}
+
+/** 把某一期的 JSON 落到本地 cache。返回是否成功。 */
+function marginalia_mirror_import(string $date): bool
+{
+    if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $date)) {
+        return false;
+    }
+    if (marginalia_load_issue($date)) {
+        return true;
+    }
+
+    $urls = marginalia_mirror_urls('issue', $date);
+    if (!$urls) {
+        return false;
+    }
+    $body = marginalia_mirror_get($urls, (float) marginalia_config('mirror.timeout'));
+    if ($body === null || trim($body) === '') {
+        return false;
+    }
+    if (strncmp($body, "\xEF\xBB\xBF", 3) === 0) {
+        $body = substr($body, 3);
+    }
+
+    $issue = json_decode($body, true);
+    if (!is_array($issue) || (string) ($issue['date'] ?? '') !== $date) {
+        marginalia_log('mirror rejected issue ' . $date . ': bad payload');
+        return false;
+    }
+    if (empty($issue['projects']) || !is_array($issue['projects'])) {
+        marginalia_log('mirror rejected issue ' . $date . ': no projects');
+        return false;
+    }
+
+    if (!marginalia_atomic_write(marginalia_issue_path($date), $body)) {
+        marginalia_log('mirror cannot write issue ' . $date);
+        return false;
+    }
+    return true;
+}
+
+/**
+ * 当天还没有本地缓存时，先试试静态站有没有现成的。
+ * 成功的话访客直接看到整页，不必等 8–15 秒的抓取。
+ */
+function marginalia_mirror_ensure_today(): bool
+{
+    if (!marginalia_mirror_ready()) {
+        return false;
+    }
+    $date = marginalia_current_issue_date();
+    if (marginalia_load_issue($date)) {
+        return false;
+    }
+
+    $state = marginalia_mirror_state();
+    $now = time();
+    $retry = max(60, (int) marginalia_config('mirror.today_retry'));
+    if (!empty($state['today_fail_at']) && $now - (int) $state['today_fail_at'] < $retry) {
+        return false;
+    }
+
+    if (marginalia_mirror_import($date)) {
+        $state['today_ok_at'] = $now;
+        unset($state['today_fail_at']);
+        marginalia_mirror_state_save($state);
+        marginalia_log('mirror imported today ' . $date);
+        return true;
+    }
+
+    $state['today_fail_at'] = $now;
+    marginalia_mirror_state_save($state);
+    return false;
+}
+
+/**
+ * 补齐缺掉的往期。由 index.php 在响应结束后调用，访客不会等在它前面。
+ * 只在有缓存目录写权限、且距上次检查超过 sync_interval 时才动网络。
+ */
+function marginalia_mirror_sync_archive(): void
+{
+    if (!marginalia_mirror_ready()) {
+        return;
+    }
+
+    $state = marginalia_mirror_state();
+    $now = time();
+    $interval = max(300, (int) marginalia_config('mirror.sync_interval'));
+    if (!empty($state['archive_at']) && $now - (int) $state['archive_at'] < $interval) {
+        return;
+    }
+    $state['archive_at'] = $now;
+    marginalia_mirror_state_save($state);
+
+    $manifestRaw = marginalia_mirror_get(
+        marginalia_mirror_urls('manifest'),
+        (float) marginalia_config('mirror.timeout')
+    );
+    $manifest = $manifestRaw !== null ? json_decode($manifestRaw, true) : null;
+    if (!is_array($manifest) || empty($manifest['dates']) || !is_array($manifest['dates'])) {
+        $state['archive_error'] = 'manifest unavailable';
+        marginalia_mirror_state_save($state);
+        return;
+    }
+
+    $keep = max(1, (int) marginalia_config('cache.keep_days'));
+    $dates = [];
+    foreach (array_slice(array_values($manifest['dates']), 0, $keep) as $date) {
+        $date = (string) $date;
+        if (preg_match('/^\d{4}-\d{2}-\d{2}$/', $date)) {
+            $dates[] = $date;
+        }
+    }
+
+    $maxImports = max(1, (int) marginalia_config('mirror.max_imports'));
+    $deadline = microtime(true) + 15.0;
+    $imported = 0;
+    $missing = 0;
+    foreach ($dates as $date) {
+        if (marginalia_load_issue($date)) {
+            continue;
+        }
+        $missing++;
+        if ($imported >= $maxImports || microtime(true) > $deadline) {
+            continue;
+        }
+        if (marginalia_mirror_import($date)) {
+            $imported++;
+        }
+    }
+
+    $state['archive_ok_at'] = $now;
+    $state['archive_imported'] = $imported;
+    $state['archive_missing'] = max(0, $missing - $imported);
+    unset($state['archive_error']);
+    marginalia_mirror_state_save($state);
+
+    if ($imported > 0) {
+        marginalia_log('mirror imported ' . $imported . ' archived issue(s)');
+    }
+}
+
+/* -------------------------------------------------------------------------
  * 文本、URL 与来源元数据
  * ---------------------------------------------------------------------- */
 

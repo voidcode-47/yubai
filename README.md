@@ -152,10 +152,12 @@ php -r "echo bin2hex(random_bytes(16)), PHP_EOL;"
 
   ```text
   User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36
-  Cookie: __test=587c5a3280af75802e316a1fb0b79d4c
+  Cookie: __test=e9a279f94b8ec8b8be6b3655f3d6ff72
   ```
 
 - 不要每天带 `force=1`；正常刷新就够。
+- `__test` 的值会随 InfinityFree 的挑战版本变化。如果 cron 突然只拿到 “This site requires Javascript…”，就用浏览器打开一次站点，重新取 cookie 后更新；`refresh.php` 的 `auto=1` 在没有 cookie 时一定会被挡在挑战页外，PHP 本身没有机会执行。
+- 即使 cron 失效，静态站的补档也会在下次访客到来时把缺的期补回来（见“零访客也不会缺期”），不会再留下永久空洞。
 
 在 [cron-job.org](https://cron-job.org/) 里新建任务，把上面两个请求头填进 “Custom HTTP headers” 即可。用命令行验证：
 
@@ -329,9 +331,10 @@ PHP 站点继续留在 InfinityFree，同时仓库里有一套静态发布流程
 
 - 线上地址：<https://voidcode-47.github.io/yubai/>
 - 仓库：`voidcode-47/yubai`，工作流在 `.github/workflows/pages.yml`
-- 每天 01:05 UTC（北京时间 09:05）自动跑一次，也可以在 Actions 页面手动触发
+- 每天 01:05 UTC（北京时间 09:05）自动跑一次，也可以在 Actions 页面手动触发。GitHub 的定时任务偶尔会延迟，严重时可达数小时；PHP 站另有 cron 和访客兜底，两边不共享同一条时间线。
 - 产物：`dist/index.html`（最新一期）、`dist/issue/<日期>/index.html`（每期固定地址）、`dist/feed.xml`、`dist/assets/`
 - 每期缓存 `deploy/cache/issue-*.json` 会由工作流提交回仓库，存档和 RSS 才有多期可读
+- `deploy/cache/archive.json` 是所有可用期的清单（`{"dates":[...]}`），PHP 站靠它补档
 - `base_path` 让同一套模板既能跑在根目录，也能跑在 `/yubai/` 这样的子目录；`site.static=1` 时页面不再调用 `refresh.php`
 
 本地复现静态站：
@@ -348,10 +351,23 @@ php -S 127.0.0.1:8090 -t .
 
 以后要把 `yubai.66ghz.com` 指向静态站：在 Cloudflare 加一条 CNAME，`yubai` → `voidcode-47.github.io`，代理状态设为 **DNS only**；然后在仓库 Settings → Pages 填自定义域名并勾选 Enforce HTTPS。在此之前，InfinityFree 那套仍然可用，两边内容一致。
 
+### 零访客也不会缺期（补档）
+
+PHP 站没有常驻进程，旧逻辑只有“访客来了”或“外部 cron 触发”才会抓取。如果某天零访客、cron 又刚好失败，那一期就会永远缺失——2026.10.29 就这样缺过一次。现在改成两条腿走路：
+
+- 静态站由 GitHub Actions 独立构建，每期 JSON 和 `archive.json` 清单都会提交回仓库；
+- PHP 站打开首页时，如果当天还没有本地缓存，先按 `config.php` 的 `mirror` 配置去 raw / jsDelivr 取静态站当天那一期（成功就直接渲染，不必等抓取）；
+- 页面输出结束后，再在后台对照 `archive.json`，把最近 21 天里缺的期补进 `cache/`；下一次刷新存档就能看到；
+- 补档状态写在 `cache/mirror.json`，每小时最多检查一次；删掉它可强制重新检查；
+- 静态导出时 `mirror` 自动关闭，构建机不会访问网络或改动缓存。
+
+补的是静态站当天真实抓到的版本，不会拿今天的新闻冒充过去。如果两套构建在同一天都失败，那一天仍然无法凭空重建——RSS 只保留 24 小时，站点不会伪造内容。
+
 ## 修改内容
 
 - **站点名称、描述、域名、邮箱、更新时间**：`config.php` 的 `site`；换域名时记得同时改 `site.url` 和 `http.user_agent`。品牌文案里仍有几处固定的“余白”字样，改名时要在 `index.php` 里一并替换；
 - **刷新密钥**：`config.php` 的 `refresh.key`；
+- **补档源**：`config.php` 的 `mirror`（静态站 raw / jsDelivr 地址、检查间隔）；`MARGINALIA_MIRROR=0` 可关闭；
 - **来源开关和地址**：`config.php` 的 `sources`；
 - **数量**：`config.php` 的 `counts`（默认 20 / 5 / 5）；如果改动，请同步修改首页和区块文案里的“二十处 / 十条 / 国内五条”等固定说法；
 - **常青兜底项目与主题**：`data/seed.php`；

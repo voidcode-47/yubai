@@ -36,6 +36,25 @@ return [
         'key' => '',
     ],
 
+    // 补档：静态站每天由 GitHub Actions 构建，PHP 站把它的产物当作备用源。
+    // 这样即使 PHP 站一整天没有访客、cron 也漏掉了一次，下一回访仍能把缺的
+    // 那一期补回来，而不是永远留一个洞。
+    'mirror' => [
+        'enabled'        => getenv('MARGINALIA_MIRROR') !== '0',
+        'manifest'       => getenv('MARGINALIA_MIRROR_MANIFEST') ?: [
+            'https://raw.githubusercontent.com/voidcode-47/yubai/main/deploy/cache/archive.json',
+            'https://cdn.jsdelivr.net/gh/voidcode-47/yubai@main/deploy/cache/archive.json',
+        ],
+        'issue'          => getenv('MARGINALIA_MIRROR_ISSUE') ?: [
+            'https://raw.githubusercontent.com/voidcode-47/yubai/main/deploy/cache/issue-{date}.json',
+            'https://cdn.jsdelivr.net/gh/voidcode-47/yubai@main/deploy/cache/issue-{date}.json',
+        ],
+        'timeout'        => 5,    // 单个镜像请求上限（秒）
+        'sync_interval'  => 3600, // 两次补档检查之间至少隔多久
+        'today_retry'    => 900,  // 当天镜像没准备好时，多久后再试
+        'max_imports'    => 5,    // 一次最多补几期，避免拖慢请求
+    ],
+
     'http' => [
         'timeout'         => 12,
         'connect_timeout' => 7,

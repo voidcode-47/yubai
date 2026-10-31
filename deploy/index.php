@@ -11,6 +11,12 @@ require_once __DIR__ . '/lib.php';
 
 @set_time_limit(50);
 
+// PHP 站没有常驻进程：若某天零访客、外部 cron 又漏了一次，这一期就会永远缺席。
+// 静态站由 GitHub Actions 每天独立构建，所以这里先补当天；往期补档放到
+// 响应结束之后，访客不会等在它前面。
+marginalia_mirror_ensure_today();
+register_shutdown_function('marginalia_mirror_sync_archive');
+
 $requested = '';
 if (isset($_GET['date'])) {
     $requested = trim((string) $_GET['date']);
