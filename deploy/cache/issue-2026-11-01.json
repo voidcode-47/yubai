@@ -1,0 +1,679 @@
+{
+    "date": "2026-11-01",
+    "issue": 6,
+    "weekday": "周日",
+    "theme": "周日 · 常规抓取",
+    "generated_at": "2026-11-01T15:23:52+08:00",
+    "updated_at": "2026-11-01T15:23:52+08:00",
+    "degraded": false,
+    "counts": {
+        "projects": 20,
+        "news_cn": 5,
+        "news_intl": 5
+    },
+    "projects": [
+        {
+            "title": "NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+            "url": "https://epoyraz.github.io/nes-contra-us/",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "82 分 · 48 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 976,
+            "published": 1793474328,
+            "discuss_url": "https://news.ycombinator.com/item?id=50319169",
+            "domain": "epoyraz.github.io",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 1,
+            "category": "use"
+        },
+        {
+            "title": "claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw,…",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,723 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 101723,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/thedotmack/claude-mem",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 2,
+            "category": "build"
+        },
+        {
+            "title": "ernd",
+            "url": "https://www.producthunt.com/products/ernd",
+            "description": "The credit card for the AI stack",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.31",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 780219,
+            "published": 1793434050,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/ernd",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 3,
+            "category": "use"
+        },
+        {
+            "title": "MECHA",
+            "url": "https://mecha-xyz.webflow.io/",
+            "description": "Mecha deploys physical automation into legacy industries. We created strategy, branding, and web design for them.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 491769,
+            "published": 1793404800,
+            "discuss_url": "",
+            "domain": "mecha-xyz.webflow.io",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 4,
+            "category": "see"
+        },
+        {
+            "title": "A language model that lives in a boot sector",
+            "url": "https://github.com/kerlenton/bootgpt",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "77 分 · 3 评论",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 830,
+            "published": 1793451509,
+            "discuss_url": "https://news.ycombinator.com/item?id=50315782",
+            "domain": "github.com/kerlenton/bootgpt",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 5,
+            "category": "build"
+        },
+        {
+            "title": "impeccable",
+            "url": "https://github.com/pbakaus/impeccable",
+            "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,338 星 · Rust",
+            "tags": [
+                "开源",
+                "Trending",
+                "Rust"
+            ],
+            "score": 101338,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/pbakaus/impeccable",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 6,
+            "category": "build"
+        },
+        {
+            "title": "AC Bridge",
+            "url": "https://www.producthunt.com/products/ac-bridge",
+            "description": "Your smart lights show when Claude Code or Codex needs you.",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.31",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 766570,
+            "published": 1793420401,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/ac-bridge",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 7,
+            "category": "use"
+        },
+        {
+            "title": "Spyker Cars",
+            "url": "https://www.spykercars.com/",
+            "description": "Most only see a Spyker in images, so we built a digital experience that hands them the keys. A day of ownership: an easy Italian morning, a mountain pass at speed, a red-carpet evening.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 405369,
+            "published": 1793318400,
+            "discuss_url": "",
+            "domain": "spykercars.com",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 8,
+            "category": "see"
+        },
+        {
+            "title": "A USB-C LTE modem that gives my computer a phone line",
+            "url": "https://github.com/Koppar-AI/koppar-lte-modem",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "54 分 · 37 评论",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 671,
+            "published": 1793462201,
+            "discuss_url": "https://news.ycombinator.com/item?id=50317331",
+            "domain": "github.com/Koppar-AI/koppar-lte-modem",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 9,
+            "category": "build"
+        },
+        {
+            "title": "OpenMausBot",
+            "url": "https://github.com/milind-soni/OpenMausBot",
+            "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,303 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 101303,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/milind-soni/OpenMausBot",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 10,
+            "category": "build"
+        },
+        {
+            "title": "Godwit",
+            "url": "https://www.producthunt.com/products/godwit",
+            "description": "An open-source, AI-native email client",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.31",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 764495,
+            "published": 1793418326,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/godwit",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 11,
+            "category": "use"
+        },
+        {
+            "title": "Unbelievably Crap",
+            "url": "https://www.unbelievablycrap.com/",
+            "description": "is a catalyst for catharsis through bold, quirky visual character. Built to crave the unknown, not repeat the known.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 318969,
+            "published": 1793232000,
+            "discuss_url": "",
+            "domain": "unbelievablycrap.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 12,
+            "category": "see"
+        },
+        {
+            "title": "BBRouter",
+            "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+            "description": "Ben Eater's 8-bit computer, simulated on 3D breadboards",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "22 分 · 6 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 297,
+            "published": 1793491830,
+            "discuss_url": "https://news.ycombinator.com/item?id=50321522",
+            "domain": "bbrouter.com",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 13,
+            "category": "use"
+        },
+        {
+            "title": "t3code",
+            "url": "https://github.com/pingdotgg/t3code",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,148 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 101148,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/pingdotgg/t3code",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 14,
+            "category": "build"
+        },
+        {
+            "title": "AwaitIO",
+            "url": "https://www.producthunt.com/products/awaitio",
+            "description": "Write a TypeScript function, get an admin screen",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 10.31",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 751921,
+            "published": 1793405752,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/awaitio",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 15,
+            "category": "use"
+        },
+        {
+            "title": "Jointter",
+            "url": "https://www.jointter.com/",
+            "description": "A daily word puzzle using dots and lines",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "13 分 · 20 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 227,
+            "published": 1793463864,
+            "discuss_url": "https://news.ycombinator.com/item?id=50317548",
+            "domain": "jointter.com",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 16,
+            "category": "use"
+        },
+        {
+            "title": "ziwei-doushu",
+            "url": "https://github.com/Renhuai123/ziwei-doushu",
+            "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+            "description_lang": "zh",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,092 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 101092,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/Renhuai123/ziwei-doushu",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 17,
+            "category": "build"
+        },
+        {
+            "title": "Quit everything to make one website",
+            "url": "https://hellojomp.com/",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "15 分",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 206,
+            "published": 1793461090,
+            "discuss_url": "https://news.ycombinator.com/item?id=50317153",
+            "domain": "hellojomp.com",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 18,
+            "category": "use"
+        },
+        {
+            "title": "Orkas",
+            "url": "https://github.com/Orkas-AI/Orkas",
+            "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with pro…",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,044 星 · JavaScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "JavaScript"
+            ],
+            "score": 101044,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/Orkas-AI/Orkas",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 19,
+            "category": "build"
+        },
+        {
+            "title": "DeepTutor",
+            "url": "https://github.com/HKUDS/DeepTutor",
+            "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,034 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 101034,
+            "published": 1793517831,
+            "discuss_url": "",
+            "domain": "github.com/HKUDS/DeepTutor",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 20,
+            "category": "build"
+        }
+    ],
+    "news_cn": [
+        {
+            "title": "遗产与发展如何共生？专家学者杭州共话融合路径",
+            "url": "https://www.chinanews.com.cn/cul/2026/11-01/10724303.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_scroll",
+            "lang": "zh",
+            "published": 1793517347,
+            "time_label": "15:15"
+        },
+        {
+            "title": "APEC“中国年”：专家热议中国高水平开放赋能亚太区域合作",
+            "url": "https://www.chinanews.com.cn/aseaninfo/2026/11-01/10724297.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_scroll",
+            "lang": "zh",
+            "published": 1793517008,
+            "time_label": "15:10"
+        },
+        {
+            "title": "野人先生获黑蚁资本投资，或将启动海外扩张",
+            "url": "https://www.tmtpost.com/8188017.html",
+            "source": "钛媒体",
+            "source_key": "tmtpost",
+            "lang": "zh",
+            "published": 1793504006,
+            "time_label": "11:33"
+        },
+        {
+            "title": "一瓶芭乐汁含50克碳水，清蓝的“健康叙事”还能说服多少人？",
+            "url": "https://www.tmtpost.com/8188946.html",
+            "source": "钛媒体",
+            "source_key": "tmtpost",
+            "lang": "zh",
+            "published": 1793502648,
+            "time_label": "11:10"
+        },
+        {
+            "title": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
+            "url": "https://www.ifanr.com/1687026",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1793455197,
+            "time_label": "10.31 21:59"
+        }
+    ],
+    "news_intl": [
+        {
+            "title": "美媒：伊朗袭击中东地区超20处美军基地 造成数十亿美元装备损失",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-01/10724259.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1793515123,
+            "time_label": "14:38"
+        },
+        {
+            "title": "2026年世界城市日全球主场活动暨第四届全球可持续发展城市奖（上海奖）颁奖活动在福州开幕",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-01/10724265.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1793512122,
+            "time_label": "13:48"
+        },
+        {
+            "title": "Swiss President arrives in Beijing as trade ties take center stage",
+            "url": "https://news.cgtn.com/news/2026-11-01/Swiss-President-arrives-in-Beijing-as-trade-ties-take-center-stage-1RH5uFmXmPC/p.html",
+            "source": "CGTN",
+            "source_key": "cgtn_world",
+            "lang": "en",
+            "published": 1793500690,
+            "time_label": "10:38"
+        },
+        {
+            "title": "世界城市日：城市焕新：人人享有适当住房",
+            "url": "https://news.un.org/feed/view/zh/story/2026/10/1143111",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1793448000,
+            "time_label": "10.31 20:00"
+        },
+        {
+            "title": "人权高专办工作人员在胡塞武装羁押期间死亡，联合国强烈谴责并要求展开调查",
+            "url": "https://news.un.org/feed/view/zh/story/2026/10/1143110",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1793448000,
+            "time_label": "10.31 20:00"
+        }
+    ],
+    "sources": {
+        "project_hn": {
+            "label": "Hacker News",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 130100,
+            "ms": 284,
+            "error": ""
+        },
+        "project_github_trending": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 13,
+            "bytes": 587074,
+            "ms": 1403,
+            "error": ""
+        },
+        "project_github": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 40,
+            "bytes": 277132,
+            "ms": 1109,
+            "error": ""
+        },
+        "project_ph": {
+            "label": "Product Hunt",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 30,
+            "bytes": 43812,
+            "ms": 150,
+            "error": ""
+        },
+        "project_awwwards": {
+            "label": "Awwwards",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 18709,
+            "ms": 553,
+            "error": ""
+        },
+        "news_chinanews_china": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": false,
+            "status": 0,
+            "items": 0,
+            "bytes": 0,
+            "ms": 12002,
+            "error": ""
+        },
+        "news_chinanews_scroll": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 28,
+            "bytes": 19150,
+            "ms": 2804,
+            "error": ""
+        },
+        "news_chinanews_import": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": false,
+            "status": 0,
+            "items": 0,
+            "bytes": 0,
+            "ms": 12003,
+            "error": ""
+        },
+        "news_tmtpost": {
+            "label": "钛媒体",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 17,
+            "bytes": 276812,
+            "ms": 2545,
+            "error": ""
+        },
+        "news_ifanr": {
+            "label": "爱范儿",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 1,
+            "bytes": 486392,
+            "ms": 1425,
+            "error": ""
+        },
+        "news_chinanews_world": {
+            "label": "中国新闻网",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 22,
+            "bytes": 15659,
+            "ms": 1796,
+            "error": ""
+        },
+        "news_un_news_zh": {
+            "label": "联合国新闻",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 3,
+            "bytes": 36199,
+            "ms": 325,
+            "error": ""
+        },
+        "news_cgtn_world": {
+            "label": "CGTN",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 15,
+            "bytes": 187359,
+            "ms": 525,
+            "error": ""
+        },
+        "news_npr_world": {
+            "label": "NPR World",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 5,
+            "bytes": 14926,
+            "ms": 134,
+            "error": ""
+        }
+    },
+    "errors": [
+        "新闻来源 中国新闻网 抓取失败"
+    ],
+    "build_ms": 12899
+}
