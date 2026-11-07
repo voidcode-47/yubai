@@ -1,0 +1,677 @@
+{
+    "date": "2026-11-07",
+    "issue": 12,
+    "weekday": "周六",
+    "theme": "周六 · 常规抓取",
+    "generated_at": "2026-11-07T15:00:32+08:00",
+    "updated_at": "2026-11-07T15:00:32+08:00",
+    "degraded": false,
+    "counts": {
+        "projects": 20,
+        "news_cn": 5,
+        "news_intl": 5
+    },
+    "projects": [
+        {
+            "title": "CloneGuard",
+            "url": "https://github.com/tharun208/cloneguard",
+            "description": "Scan a repo for credential-stealing tricks before it runs",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "28 分 · 7 评论",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 355,
+            "published": 1793994567,
+            "discuss_url": "https://news.ycombinator.com/item?id=50397435",
+            "domain": "github.com/tharun208/cloneguard",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 1,
+            "category": "use"
+        },
+        {
+            "title": "security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill",
+            "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,548 星 · JavaScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "JavaScript"
+            ],
+            "score": 102548,
+            "published": 1794034831,
+            "discuss_url": "",
+            "domain": "github.com/cloudflare/security-audit-skill",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 2,
+            "category": "build"
+        },
+        {
+            "title": "Letterpress-1",
+            "url": "https://www.producthunt.com/products/letterpress-1",
+            "description": "One script install to automate growth for your website",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.06",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 778494,
+            "published": 1793949325,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/letterpress-1",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 3,
+            "category": "use"
+        },
+        {
+            "title": "ViV",
+            "url": "https://vivmgmt.com/",
+            "description": "A new identity and website for ViV, a New York artist management and production company, designed to put its roster and production work front and centre.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 493169,
+            "published": 1793923200,
+            "discuss_url": "",
+            "domain": "vivmgmt.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 4,
+            "category": "see"
+        },
+        {
+            "title": "Did prediction markets do any predicting this midterms?",
+            "url": "https://app.artifactbin.dev/@vivek/AQTt2H-did-prediction-markets-predict-the-midterms",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "24 分 · 11 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 331,
+            "published": 1794023421,
+            "discuss_url": "https://news.ycombinator.com/item?id=50401451",
+            "domain": "app.artifactbin.dev",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 5,
+            "category": "use"
+        },
+        {
+            "title": "skills",
+            "url": "https://github.com/mattpocock/skills",
+            "description": "Skills for Real Engineers. Straight from my .agents directory.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,070 星 · Shell",
+            "tags": [
+                "开源",
+                "Trending",
+                "Shell"
+            ],
+            "score": 102070,
+            "published": 1794034831,
+            "discuss_url": "",
+            "domain": "github.com/mattpocock/skills",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 6,
+            "category": "build"
+        },
+        {
+            "title": "crystl",
+            "url": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+            "description": "multitasking terminal for AI coding agents, built for macOS",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.06",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 762242,
+            "published": 1793933073,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/crystl-multitasking-terminal",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 7,
+            "category": "use"
+        },
+        {
+            "title": "Agrumea Farm",
+            "url": "https://www.agrumeafarm.it/en",
+            "description": "An immersive web journey through Agrumea Farm, blending Sicilian heritage with Three.js, Nuxt, GSAP and smooth Lenis interactions",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 406769,
+            "published": 1793836800,
+            "discuss_url": "",
+            "domain": "agrumeafarm.it",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 8,
+            "category": "see"
+        },
+        {
+            "title": "Agents infer Lego mechanisms from sources, then animate them",
+            "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "26 分 · 1 评论",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 323,
+            "published": 1793994080,
+            "discuss_url": "https://news.ycombinator.com/item?id=50397325",
+            "domain": "github.com/anteloc/ldraw-mecha",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 9,
+            "category": "use"
+        },
+        {
+            "title": "auto-ontology",
+            "url": "https://github.com/NVIDIA/auto-ontology",
+            "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,015 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 102015,
+            "published": 1794034831,
+            "discuss_url": "",
+            "domain": "github.com/NVIDIA/auto-ontology",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 10,
+            "category": "build"
+        },
+        {
+            "title": "Cursor Craft",
+            "url": "https://www.producthunt.com/products/cursor-craft",
+            "description": "Custom cursors for Mac",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.06",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 759194,
+            "published": 1793930025,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/cursor-craft",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 11,
+            "category": "use"
+        },
+        {
+            "title": "Grail",
+            "url": "https://grail-app.com/",
+            "description": "Branding and a scroll-driven 3D web experience for Grail – an iOS self-improvement app that turns real-world quests into RPG stats.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 320369,
+            "published": 1793750400,
+            "discuss_url": "",
+            "domain": "grail-app.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 12,
+            "category": "see"
+        },
+        {
+            "title": "Agentic Identity Broker, OAuth Delegation for AI Agents",
+            "url": "https://github.com/zalando-incubator/agentic-identity-broker",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "22 分 · 3 评论",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 282,
+            "published": 1793977667,
+            "discuss_url": "https://news.ycombinator.com/item?id=50393235",
+            "domain": "github.com/zalando-incubator/agentic-identity-broker",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 13,
+            "category": "build"
+        },
+        {
+            "title": "skills",
+            "url": "https://github.com/google/skills",
+            "description": "Agent Skills for Google products and technologies",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +534 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 100534,
+            "published": 1794034831,
+            "discuss_url": "",
+            "domain": "github.com/google/skills",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 14,
+            "category": "build"
+        },
+        {
+            "title": "Kodivo",
+            "url": "https://www.producthunt.com/products/kodivo",
+            "description": "Learn coding with AI and PHP through swipeable cards",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.06",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 752792,
+            "published": 1793923623,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/kodivo",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 15,
+            "category": "use"
+        },
+        {
+            "title": "An open source webbluetooth and NFC browser for iOS",
+            "url": "https://github.com/hito-dev/wand-browser",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "14 分",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 195,
+            "published": 1793972707,
+            "discuss_url": "https://news.ycombinator.com/item?id=50392219",
+            "domain": "github.com/hito-dev/wand-browser",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 16,
+            "category": "build"
+        },
+        {
+            "title": "lz4",
+            "url": "https://github.com/lz4/lz4",
+            "description": "Extremely Fast Compression algorithm",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +315 星 · C",
+            "tags": [
+                "开源",
+                "Trending",
+                "C"
+            ],
+            "score": 100315,
+            "published": 1794034831,
+            "discuss_url": "",
+            "domain": "github.com/lz4/lz4",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 17,
+            "category": "build"
+        },
+        {
+            "title": "AegisKernel",
+            "url": "https://adikshatriyag-crypto.github.io/aegis-kernel/",
+            "description": "Zero-trust POSIX runtime for AI agents in",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "12 分 · 3 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 184,
+            "published": 1793984423,
+            "discuss_url": "https://news.ycombinator.com/item?id=50394991",
+            "domain": "adikshatriyag-crypto.github.io",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 18,
+            "category": "use"
+        },
+        {
+            "title": "zed",
+            "url": "https://github.com/zed-industries/zed",
+            "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +306 星 · Rust",
+            "tags": [
+                "开源",
+                "Trending",
+                "Rust"
+            ],
+            "score": 100306,
+            "published": 1794034831,
+            "discuss_url": "",
+            "domain": "github.com/zed-industries/zed",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 19,
+            "category": "build"
+        },
+        {
+            "title": "An NLP based word game for users to play against Astra, Opus, and more",
+            "url": "https://wordspies.com/",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "5 分 · 7 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 125,
+            "published": 1793996398,
+            "discuss_url": "https://news.ycombinator.com/item?id=50397874",
+            "domain": "wordspies.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 20,
+            "category": "play"
+        }
+    ],
+    "news_cn": [
+        {
+            "title": "交通运输部启动低温雨雪冰冻三级防御响应",
+            "url": "https://www.chinanews.com.cn/gn/2026/11-07/10727864.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_china",
+            "lang": "zh",
+            "published": 1794031359,
+            "time_label": "14:02"
+        },
+        {
+            "title": "百亿美金只是起点，补体抑制剂变局将至",
+            "url": "https://www.tmtpost.com/8196680.html",
+            "source": "钛媒体",
+            "source_key": "tmtpost",
+            "lang": "zh",
+            "published": 1794031000,
+            "time_label": "13:56"
+        },
+        {
+            "title": "国家外汇管理局：截至10月末，我国外汇储备规模为34052亿美元",
+            "url": "https://www.chinanews.com.cn/cj/2026/11-07/10727832.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_import",
+            "lang": "zh",
+            "published": 1794028174,
+            "time_label": "13:09"
+        },
+        {
+            "title": "早报｜触屏MacBook Pro开卖即缺货/仰望U9 Xtreme突破503kph/博世吴永桥：汽车不该拿来订咖啡机票",
+            "url": "https://www.ifanr.com/1688251",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1794011237,
+            "time_label": "08:27"
+        },
+        {
+            "title": "503.17km/h！比亚迪仰望 U9X 再次刷新全球最速，量产车首次突破 5 字头",
+            "url": "https://www.ifanr.com/1688195",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1793957133,
+            "time_label": "11.06 17:25"
+        }
+    ],
+    "news_intl": [
+        {
+            "title": "【子午播报】2026年11月7日",
+            "url": "https://news.un.org/feed/view/zh/story/2026/11/1143158",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1794034832,
+            "time_label": "15:00"
+        },
+        {
+            "title": "中国驻杜塞尔多夫总领馆举行2026年度国家留学基金委奖学金颁奖仪式",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727840.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1794026238,
+            "time_label": "12:37"
+        },
+        {
+            "title": "欧洲多地接连遭遇炸弹威胁和网络攻击 民用设施安全引发关注",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-07/10727833.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1794025503,
+            "time_label": "12:25"
+        },
+        {
+            "title": "Int'l forum on mutual learning among civilizations to open in Macao",
+            "url": "https://news.cgtn.com/news/2026-11-07/Int-l-forum-on-mutual-learning-among-civilizations-to-open-in-Macao-1RRVTixQESs/p.html",
+            "source": "CGTN",
+            "source_key": "cgtn_world",
+            "lang": "en",
+            "published": 1794015142,
+            "time_label": "09:32"
+        },
+        {
+            "title": "【世界进行时】2026年11月6日",
+            "url": "https://news.un.org/feed/view/zh/story/2026/11/1143156",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1793966400,
+            "time_label": "11.06 20:00"
+        }
+    ],
+    "sources": {
+        "project_hn": {
+            "label": "Hacker News",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 7,
+            "bytes": 141861,
+            "ms": 3402,
+            "error": ""
+        },
+        "project_github_trending": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 18,
+            "bytes": 618021,
+            "ms": 1429,
+            "error": ""
+        },
+        "project_github": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 40,
+            "bytes": 275289,
+            "ms": 961,
+            "error": ""
+        },
+        "project_ph": {
+            "label": "Product Hunt",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 30,
+            "bytes": 43998,
+            "ms": 77,
+            "error": ""
+        },
+        "project_awwwards": {
+            "label": "Awwwards",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 18516,
+            "ms": 360,
+            "error": ""
+        },
+        "news_chinanews_china": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 29,
+            "bytes": 16141,
+            "ms": 929,
+            "error": ""
+        },
+        "news_chinanews_scroll": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 26,
+            "bytes": 19278,
+            "ms": 930,
+            "error": ""
+        },
+        "news_chinanews_import": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 15901,
+            "ms": 928,
+            "error": ""
+        },
+        "news_tmtpost": {
+            "label": "钛媒体",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 16,
+            "bytes": 218355,
+            "ms": 2890,
+            "error": ""
+        },
+        "news_ifanr": {
+            "label": "爱范儿",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 2,
+            "bytes": 435342,
+            "ms": 2249,
+            "error": ""
+        },
+        "news_chinanews_world": {
+            "label": "中国新闻网",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 29,
+            "bytes": 14995,
+            "ms": 928,
+            "error": ""
+        },
+        "news_un_news_zh": {
+            "label": "联合国新闻",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 10,
+            "bytes": 35310,
+            "ms": 56,
+            "error": ""
+        },
+        "news_cgtn_world": {
+            "label": "CGTN",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 27,
+            "bytes": 193810,
+            "ms": 525,
+            "error": ""
+        },
+        "news_npr_world": {
+            "label": "NPR World",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 8,
+            "bytes": 15270,
+            "ms": 192,
+            "error": ""
+        }
+    },
+    "errors": [],
+    "build_ms": 4431
+}
