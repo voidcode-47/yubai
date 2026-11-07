@@ -43,15 +43,23 @@ $summary = [
 
 // 给 PHP 站的补档清单：列出目前所有可用的期。PHP 站会通过 raw/jsDelivr
 // 读取它，把零访客那天漏掉的期补回来。
-$manifest = [
-    'updated' => marginalia_iso_now(),
-    'latest'  => (string) ($issue['date'] ?? $date),
-    'dates'   => marginalia_archive_dates(0),
-];
-marginalia_atomic_write(
-    marginalia_cache_dir() . '/archive.json',
-    json_encode($manifest, marginalia_json_flags())
-);
+// 只有期数真的变了才重写，免得每次兜底运行都产生一次无意义的提交。
+$dates = marginalia_archive_dates(0);
+$manifestPath = marginalia_cache_dir() . '/archive.json';
+$existing = marginalia_read_json($manifestPath);
+$existingDates = is_array($existing) && isset($existing['dates']) && is_array($existing['dates'])
+    ? array_values($existing['dates'])
+    : [];
+if ($existingDates !== $dates) {
+    marginalia_atomic_write(
+        $manifestPath,
+        json_encode([
+            'updated' => marginalia_iso_now(),
+            'latest'  => $dates ? (string) $dates[0] : '',
+            'dates'   => $dates,
+        ], marginalia_json_flags())
+    );
+}
 
 echo json_encode($summary, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), "\n";
 

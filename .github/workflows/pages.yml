@@ -53,7 +53,7 @@ jobs:
             echo "cache unchanged"
             exit 0
           fi
-          git commit -m "content: $(date -u -d '+8 hours' +%F)"
+          git commit -m "content: $(ls deploy/cache/issue-*.json | sed -E 's#.*/issue-(.+)\.json#\1#' | sort | tail -1)"
           for attempt in 1 2 3; do
             if git push; then
               exit 0
