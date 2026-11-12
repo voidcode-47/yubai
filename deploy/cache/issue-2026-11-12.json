@@ -1,0 +1,680 @@
+{
+    "date": "2026-11-12",
+    "issue": 17,
+    "weekday": "周四",
+    "theme": "周四 · 常规抓取",
+    "generated_at": "2026-11-12T16:11:15+08:00",
+    "updated_at": "2026-11-12T16:11:15+08:00",
+    "degraded": false,
+    "counts": {
+        "projects": 20,
+        "news_cn": 5,
+        "news_intl": 5
+    },
+    "projects": [
+        {
+            "title": "I recreated Papers Please but you're deciding which YC startups to fund",
+            "url": "https://termsheetplease.com/",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "220 分 · 85 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 2429,
+            "published": 1794424336,
+            "discuss_url": "https://news.ycombinator.com/item?id=50457230",
+            "domain": "termsheetplease.com",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 1,
+            "category": "use"
+        },
+        {
+            "title": "astryx",
+            "url": "https://github.com/meta/astryx",
+            "description": "An open source design system that's fully customizable and agent ready",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +2,776 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 102776,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/meta/astryx",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 2,
+            "category": "build"
+        },
+        {
+            "title": "Didit MCP",
+            "url": "https://www.producthunt.com/products/didit-3",
+            "description": "The MCP server for identity verification and fraud checks",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.12",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 862781,
+            "published": 1794469855,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/didit-3",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 3,
+            "category": "use"
+        },
+        {
+            "title": "AUGE Experience",
+            "url": "https://auge-xp.com/",
+            "description": "An award-winning digital experience studio partenring with ambitious brands to create distinctive experiences through design, technology and creative experimentations.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 575326,
+            "published": 1794441600,
+            "discuss_url": "",
+            "domain": "auge-xp.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 4,
+            "category": "see"
+        },
+        {
+            "title": "sure",
+            "url": "https://github.com/we-promise/sure",
+            "description": "The personal finance app for everyone (by everyone)",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,078 星 · Ruby",
+            "tags": [
+                "开源",
+                "Trending",
+                "Ruby"
+            ],
+            "score": 101078,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/we-promise/sure",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 5,
+            "category": "build"
+        },
+        {
+            "title": "Hoy for Mac",
+            "url": "https://www.producthunt.com/products/hoy-for-mac",
+            "description": "Walkie-talkie meets AirDrop meets Messages",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.12",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 857922,
+            "published": 1794464996,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/hoy-for-mac",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 6,
+            "category": "use"
+        },
+        {
+            "title": "Cyera AI Guardian",
+            "url": "https://secure-the-unknown.cyera.com/",
+            "description": "An interactive microsite where users pilot a vessel through three AI security planets, completing mini-games and exploring Cyera’s data security capabilities.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 488926,
+            "published": 1794355200,
+            "discuss_url": "",
+            "domain": "secure-the-unknown.cyera.com",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 7,
+            "category": "see"
+        },
+        {
+            "title": "agent-skills",
+            "url": "https://github.com/addyosmani/agent-skills",
+            "description": "Production-grade engineering skills for AI coding agents.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +787 星 · JavaScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "JavaScript"
+            ],
+            "score": 100787,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/addyosmani/agent-skills",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 8,
+            "category": "build"
+        },
+        {
+            "title": "Crossfade",
+            "url": "https://www.producthunt.com/products/crossfade",
+            "description": "Let your coding agent design in your open Figma file",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.12",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 845125,
+            "published": 1794452199,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/crossfade",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 9,
+            "category": "use"
+        },
+        {
+            "title": "Creative Reference Library",
+            "url": "https://crl-2026.webflow.io/",
+            "description": "/ CRL® is a curated library of creative references from music, film, books, and writing that shape how ideas are developed, tested, and made.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 402526,
+            "published": 1794268800,
+            "discuss_url": "",
+            "domain": "crl-2026.webflow.io",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 10,
+            "category": "see"
+        },
+        {
+            "title": "agent-browser",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "description": "Browser automation CLI for AI agents",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +708 星 · Rust",
+            "tags": [
+                "开源",
+                "Trending",
+                "Rust"
+            ],
+            "score": 100708,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/vercel-labs/agent-browser",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 11,
+            "category": "build"
+        },
+        {
+            "title": "Offstage Cloud",
+            "url": "https://www.producthunt.com/products/offstage-cloud",
+            "description": "On-demand macOS sandboxes for AI agents",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.12",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 843517,
+            "published": 1794450591,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/offstage-cloud",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 12,
+            "category": "use"
+        },
+        {
+            "title": "ZIRKA Interceptor",
+            "url": "https://www.zrk.technology/",
+            "description": "Building a digital experience for a next-gen Ukrainian interceptor drone.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 316126,
+            "published": 1794182400,
+            "discuss_url": "",
+            "domain": "zrk.technology",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 13,
+            "category": "see"
+        },
+        {
+            "title": "ha-mcp",
+            "url": "https://github.com/homeassistant-ai/ha-mcp",
+            "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +645 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 100645,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/homeassistant-ai/ha-mcp",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 14,
+            "category": "build"
+        },
+        {
+            "title": "Oxagen",
+            "url": "https://www.producthunt.com/products/oxagen",
+            "description": "Mission control for agents to share + maintain context",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.12",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 842479,
+            "published": 1794449553,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/oxagen",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 15,
+            "category": "use"
+        },
+        {
+            "title": "Extrafazant",
+            "url": "https://www.extrafazant.nl/",
+            "description": "is a video and animation studio from Tilburg, The Netherlands. Making visual content for brands that aren't afraid to stand out.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 229726,
+            "published": 1794096000,
+            "discuss_url": "",
+            "domain": "extrafazant.nl",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 16,
+            "category": "see"
+        },
+        {
+            "title": "improve",
+            "url": "https://github.com/shadcn/improve",
+            "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +361 星",
+            "tags": [
+                "开源",
+                "Trending"
+            ],
+            "score": 100361,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/shadcn/improve",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 17,
+            "category": "build"
+        },
+        {
+            "title": "Blendra",
+            "url": "https://www.producthunt.com/products/blendra",
+            "description": "Record a flow once and get a Playwright test project you own",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.12",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 836265,
+            "published": 1794443339,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/blendra",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 18,
+            "category": "use"
+        },
+        {
+            "title": "daily_stock_analysis",
+            "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+            "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+            "description_lang": "zh",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +278 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 100278,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/ZhuLinsen/daily_stock_analysis",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 19,
+            "category": "build"
+        },
+        {
+            "title": "modern-web-guidance-src",
+            "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +159 星 · TypeScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "TypeScript"
+            ],
+            "score": 100159,
+            "published": 1794471074,
+            "discuss_url": "",
+            "domain": "github.com/GoogleChrome/modern-web-guidance-src",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 20,
+            "category": "build"
+        }
+    ],
+    "news_cn": [
+        {
+            "title": "韩国外长赵显将访华 中国外交部介绍有关安排",
+            "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730841.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_china",
+            "lang": "zh",
+            "published": 1794470573,
+            "time_label": "16:02"
+        },
+        {
+            "title": "AI浓度最高的一届双十一，增量在哪里？",
+            "url": "https://www.tmtpost.com/8201450.html",
+            "source": "钛媒体",
+            "source_key": "tmtpost",
+            "lang": "zh",
+            "published": 1794470351,
+            "time_label": "15:59"
+        },
+        {
+            "title": "（深圳APEC）从上海到北京再到深圳：中国与APEC的双向奔赴",
+            "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730810.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_import",
+            "lang": "zh",
+            "published": 1794468047,
+            "time_label": "15:20"
+        },
+        {
+            "title": "刚刚，豆包工作官宣接入 Kimi、DeepSeek，AI 模型自由来了",
+            "url": "https://www.ifanr.com/1689176",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1794459005,
+            "time_label": "12:50"
+        },
+        {
+            "title": "拆解触屏 MacBook Pro：点亮苹果 LOGO 的秘密，藏在这里",
+            "url": "https://www.ifanr.com/1689129",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1794456007,
+            "time_label": "12:00"
+        }
+    ],
+    "news_intl": [
+        {
+            "title": "印尼副总统吉布兰正式递交辞职信",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730812.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1794468864,
+            "time_label": "15:34"
+        },
+        {
+            "title": "日本报告本季首起禽流感疫情",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-12/10730811.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1794468758,
+            "time_label": "15:32"
+        },
+        {
+            "title": "Four million Spanish workers strike over housing crisis",
+            "url": "https://news.cgtn.com/news/2026-11-12/Four-million-Spanish-workers-strike-over-housing-crisis-1S0cubRpsc0/p.html",
+            "source": "CGTN",
+            "source_key": "cgtn_world",
+            "lang": "en",
+            "published": 1794449843,
+            "time_label": "10:17"
+        },
+        {
+            "title": "【专题报道|前方视野】人类是否会失去对战争的有效控制——人工智能时代的安全隐忧",
+            "url": "https://news.un.org/feed/view/zh/story/2026/11/1143178",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1794398400,
+            "time_label": "11.11 20:00"
+        },
+        {
+            "title": "联合国报告：全球70%的国家已建立多灾种早期预警系统",
+            "url": "https://news.un.org/feed/view/zh/story/2026/11/1143181",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1794398400,
+            "time_label": "11.11 20:00"
+        }
+    ],
+    "sources": {
+        "project_hn": {
+            "label": "Hacker News",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 1,
+            "bytes": 173214,
+            "ms": 722,
+            "error": ""
+        },
+        "project_github_trending": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 10,
+            "bytes": 530418,
+            "ms": 1118,
+            "error": ""
+        },
+        "project_github": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 40,
+            "bytes": 278146,
+            "ms": 1100,
+            "error": ""
+        },
+        "project_ph": {
+            "label": "Product Hunt",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 30,
+            "bytes": 43800,
+            "ms": 95,
+            "error": ""
+        },
+        "project_awwwards": {
+            "label": "Awwwards",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 18452,
+            "ms": 437,
+            "error": ""
+        },
+        "news_chinanews_china": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 28,
+            "bytes": 14202,
+            "ms": 312,
+            "error": ""
+        },
+        "news_chinanews_scroll": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 27,
+            "bytes": 15798,
+            "ms": 322,
+            "error": ""
+        },
+        "news_chinanews_import": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 23,
+            "bytes": 15999,
+            "ms": 506,
+            "error": ""
+        },
+        "news_tmtpost": {
+            "label": "钛媒体",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 16,
+            "bytes": 204741,
+            "ms": 2145,
+            "error": ""
+        },
+        "news_ifanr": {
+            "label": "爱范儿",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 8,
+            "bytes": 450334,
+            "ms": 2000,
+            "error": ""
+        },
+        "news_chinanews_world": {
+            "label": "中国新闻网",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 29,
+            "bytes": 15290,
+            "ms": 307,
+            "error": ""
+        },
+        "news_un_news_zh": {
+            "label": "联合国新闻",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 7,
+            "bytes": 35969,
+            "ms": 96,
+            "error": ""
+        },
+        "news_cgtn_world": {
+            "label": "CGTN",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 21,
+            "bytes": 165085,
+            "ms": 291,
+            "error": ""
+        },
+        "news_npr_world": {
+            "label": "NPR World",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 15691,
+            "ms": 191,
+            "error": ""
+        }
+    },
+    "errors": [],
+    "build_ms": 3077
+}
