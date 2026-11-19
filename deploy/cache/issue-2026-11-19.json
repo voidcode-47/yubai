@@ -1,0 +1,676 @@
+{
+    "date": "2026-11-19",
+    "issue": 24,
+    "weekday": "周四",
+    "theme": "周四 · 常规抓取",
+    "generated_at": "2026-11-19T16:39:39+08:00",
+    "updated_at": "2026-11-19T16:39:39+08:00",
+    "degraded": false,
+    "counts": {
+        "projects": 20,
+        "news_cn": 5,
+        "news_intl": 5
+    },
+    "projects": [
+        {
+            "title": "Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+            "url": "https://springcraft-ai.github.io/springrep/",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "29 分 · 5 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 360,
+            "published": 1795036127,
+            "discuss_url": "https://news.ycombinator.com/item?id=50552140",
+            "domain": "springcraft-ai.github.io",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 1,
+            "category": "use"
+        },
+        {
+            "title": "paper-orchestra",
+            "url": "https://github.com/google-research/paper-orchestra",
+            "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,524 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 101524,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/google-research/paper-orchestra",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 2,
+            "category": "build"
+        },
+        {
+            "title": "Nuko",
+            "url": "https://www.producthunt.com/products/nuko",
+            "description": "Motion design in your browser",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.19",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 845697,
+            "published": 1795059275,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/nuko",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 3,
+            "category": "use"
+        },
+        {
+            "title": "Carter Ogunsola",
+            "url": "https://carterogunsola.com/",
+            "description": "My portfolio, built like a print shop. A two-wheel press for projects, a lanyard badge, a typed letter and a lab.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 573622,
+            "published": 1795046400,
+            "discuss_url": "",
+            "domain": "carterogunsola.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 4,
+            "category": "see"
+        },
+        {
+            "title": "ADE Index",
+            "url": "https://adeindex.com/",
+            "description": "a sourced and ranked index of 975 agentic coding tools",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "16 分 · 3 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 231,
+            "published": 1795052032,
+            "discuss_url": "https://news.ycombinator.com/item?id=50554973",
+            "domain": "adeindex.com",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 5,
+            "category": "use"
+        },
+        {
+            "title": "ECC",
+            "url": "https://github.com/affaan-m/ECC",
+            "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,108 星 · JavaScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "JavaScript"
+            ],
+            "score": 101108,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/affaan-m/ECC",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 6,
+            "category": "build"
+        },
+        {
+            "title": "Tecla",
+            "url": "https://www.producthunt.com/products/tecla-3",
+            "description": "A proactive AI agent whose interface is a TODO list",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.19",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 843956,
+            "published": 1795057534,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/tecla-3",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 7,
+            "category": "use"
+        },
+        {
+            "title": "PSP Production",
+            "url": "https://productionportugal.com/",
+            "description": "is a senior-led film & commercial studio in Portugal & Spain with 25+ years of experience and a portfolio of Porsche, BMW, Netflix's Money Heist & FBI International.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 487222,
+            "published": 1794960000,
+            "discuss_url": "",
+            "domain": "productionportugal.com",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 8,
+            "category": "see"
+        },
+        {
+            "title": "Beat",
+            "url": "https://gobeat.ai/auth/login",
+            "description": "a to-do list that completes its own tasks",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "15 分 · 7 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 223,
+            "published": 1795032105,
+            "discuss_url": "https://news.ycombinator.com/item?id=50551356",
+            "domain": "gobeat.ai",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 9,
+            "category": "use"
+        },
+        {
+            "title": "last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +1,059 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 101059,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/mvanhorn/last30days-skill",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 10,
+            "category": "build"
+        },
+        {
+            "title": "Gemini 4 Neon",
+            "url": "https://www.producthunt.com/products/gemini-6",
+            "description": "Frontier reasoning with faster task completion",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.19",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 841980,
+            "published": 1795055558,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/gemini-6",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 11,
+            "category": "use"
+        },
+        {
+            "title": "Sweet Tape",
+            "url": "https://sweet-tape.com/",
+            "description": "Reimagine an everyday tape essential as something more thoughtful, expressive, and full of heart.",
+            "description_lang": "en",
+            "source_key": "awwwards",
+            "source": "Awwwards",
+            "badge": "AWD",
+            "meta": "Awwwards · 每日站点",
+            "tags": [
+                "设计",
+                "站点"
+            ],
+            "score": 400822,
+            "published": 1794873600,
+            "discuss_url": "",
+            "domain": "sweet-tape.com",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 12,
+            "category": "see"
+        },
+        {
+            "title": "Try Vibe Robotics! (IRL or MuJoCo SIM)",
+            "url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+            "description": "",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "11 分",
+            "tags": [
+                "Show HN",
+                "开源"
+            ],
+            "score": 173,
+            "published": 1795045120,
+            "discuss_url": "https://news.ycombinator.com/item?id=50553913",
+            "domain": "github.com/google-deepmind/robotics-antigravity-plugin",
+            "glyph": "<path d=\"M4 24h24M8 24c0-5 3-8 8-8s8 3 8 8\"/><circle cx=\"12\" cy=\"8\" r=\".9\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"18\" cy=\"5.5\" r=\".7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"22.5\" cy=\"10\" r=\".6\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 13,
+            "category": "build"
+        },
+        {
+            "title": "superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "description": "An agentic skills framework & software development methodology that works.",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +822 星 · Shell",
+            "tags": [
+                "开源",
+                "Trending",
+                "Shell"
+            ],
+            "score": 100822,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/obra/superpowers",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"11\"/><path d=\"m20.5 11.5-3 6-6 3 3-6 6-3Z\"/>",
+            "no": 14,
+            "category": "build"
+        },
+        {
+            "title": "Adside",
+            "url": "https://www.producthunt.com/products/adside",
+            "description": "A team of specialized AI agents that manage paid ads for you",
+            "description_lang": "en",
+            "source_key": "ph",
+            "source": "Product Hunt",
+            "badge": "PH",
+            "meta": "Product Hunt · 11.19",
+            "tags": [
+                "产品",
+                "发布"
+            ],
+            "score": 835984,
+            "published": 1795049562,
+            "discuss_url": "",
+            "domain": "producthunt.com/products/adside",
+            "glyph": "<rect x=\"5\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"5\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"5\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/><rect x=\"19\" y=\"19\" width=\"8\" height=\"8\" rx=\"1\"/>",
+            "no": 15,
+            "category": "use"
+        },
+        {
+            "title": "BPM",
+            "url": "https://hberg.com/bpm/",
+            "description": "Baby Plus Music Visualizer",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "10 分 · 6 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 169,
+            "published": 1795024855,
+            "discuss_url": "https://news.ycombinator.com/item?id=50549718",
+            "domain": "hberg.com",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4\"/><ellipse cx=\"16\" cy=\"16\" rx=\"13\" ry=\"5.5\" transform=\"rotate(-30 16 16)\"/><circle cx=\"27\" cy=\"10\" r=\"1.4\" fill=\"currentColor\" stroke=\"none\"/>",
+            "no": 16,
+            "category": "see"
+        },
+        {
+            "title": "svelte",
+            "url": "https://github.com/sveltejs/svelte",
+            "description": "web development for the rest of us",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +692 星 · JavaScript",
+            "tags": [
+                "开源",
+                "Trending",
+                "JavaScript"
+            ],
+            "score": 100692,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/sveltejs/svelte",
+            "glyph": "<circle cx=\"16\" cy=\"16\" r=\"4.2\"/><path d=\"M16 3v5M16 24v5M3 16h5M24 16h5M6.8 6.8l3.5 3.5M21.7 21.7l3.5 3.5M25.2 6.8l-3.5 3.5M10.3 21.7l-3.5 3.5\"/>",
+            "no": 17,
+            "category": "build"
+        },
+        {
+            "title": "KradleBench",
+            "url": "https://www.kradle.ai/?1=",
+            "description": "Multi-agent AI evals in Minecraft",
+            "description_lang": "en",
+            "source_key": "hn",
+            "source": "Hacker News",
+            "badge": "HN",
+            "meta": "9 分 · 7 评论",
+            "tags": [
+                "Show HN"
+            ],
+            "score": 163,
+            "published": 1795029268,
+            "discuss_url": "https://news.ycombinator.com/item?id=50550700",
+            "domain": "kradle.ai",
+            "glyph": "<path d=\"M6 22v-6M11 26V6M16 21V11M21 26V9M26 20v-8\"/>",
+            "no": 18,
+            "category": "use"
+        },
+        {
+            "title": "arcane",
+            "url": "https://github.com/getarcaneapp/arcane",
+            "description": "Modern Docker Management, Designed for Everyone",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +547 星 · Go",
+            "tags": [
+                "开源",
+                "Trending",
+                "Go"
+            ],
+            "score": 100547,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/getarcaneapp/arcane",
+            "glyph": "<rect x=\"5\" y=\"7\" width=\"22\" height=\"18\" rx=\"1.5\"/><path d=\"M5 12h22M12 12v13\"/>",
+            "no": 19,
+            "category": "build"
+        },
+        {
+            "title": "CLI-Anything",
+            "url": "https://github.com/HKUDS/CLI-Anything",
+            "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+            "description_lang": "en",
+            "source_key": "github",
+            "source": "GitHub",
+            "badge": "GH",
+            "meta": "今日 +389 星 · Python",
+            "tags": [
+                "开源",
+                "Trending",
+                "Python"
+            ],
+            "score": 100389,
+            "published": 1795077578,
+            "discuss_url": "",
+            "domain": "github.com/HKUDS/CLI-Anything",
+            "glyph": "<path d=\"M6 25h20M9 25V13m14 12V13M6 13l10-6 10 6M13 25v-8h6v8\"/>",
+            "no": 20,
+            "category": "build"
+        }
+    ],
+    "news_cn": [
+        {
+            "title": "国内首款Gen6 SSD量产，AI存储重算经济帐",
+            "url": "https://www.tmtpost.com/8210529.html",
+            "source": "钛媒体",
+            "source_key": "tmtpost",
+            "lang": "zh",
+            "published": 1795077317,
+            "time_label": "16:35"
+        },
+        {
+            "title": "中俄美元首会晤开始举行",
+            "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734704.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_china",
+            "lang": "zh",
+            "published": 1795076869,
+            "time_label": "16:27"
+        },
+        {
+            "title": "（深圳APEC）深圳APEC：一场中国式现代化的“现场说明会”",
+            "url": "https://www.chinanews.com.cn/gn/2026/11-19/10734636.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_import",
+            "lang": "zh",
+            "published": 1795073768,
+            "time_label": "15:36"
+        },
+        {
+            "title": "刚拒绝黄仁勋回归，英伟达官宣全员加薪，热门接班人曝光",
+            "url": "https://www.ifanr.com/1690288",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1795057165,
+            "time_label": "10:59"
+        },
+        {
+            "title": "早报｜GTA6开售，评分破纪录/大疆多款相机涨价/豆包工作三个月日活破800万",
+            "url": "https://www.ifanr.com/1690255",
+            "source": "爱范儿",
+            "source_key": "ifanr",
+            "lang": "zh",
+            "published": 1795048564,
+            "time_label": "08:36"
+        }
+    ],
+    "news_intl": [
+        {
+            "title": "乌克兰称袭击俄罗斯两座炼油厂",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734629.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1795073280,
+            "time_label": "15:28"
+        },
+        {
+            "title": "韩国高考开考 多项措施严防考试作弊",
+            "url": "https://www.chinanews.com.cn/gj/2026/11-19/10734614.shtml",
+            "source": "中国新闻网",
+            "source_key": "chinanews_world",
+            "lang": "zh",
+            "published": 1795073230,
+            "time_label": "15:27"
+        },
+        {
+            "title": "China is advocate, promoter, forerunner of Asia-Pacific cooperation",
+            "url": "https://news.cgtn.com/news/2026-11-19/China-is-advocate-promoter-forerunner-of-Asia-Pacific-cooperation-1SbZWZzyDAI/p.html",
+            "source": "CGTN",
+            "source_key": "cgtn_world",
+            "lang": "en",
+            "published": 1795056664,
+            "time_label": "10:51"
+        },
+        {
+            "title": "第31届气候变化大会僵局持续，各国启动新一轮“气候承诺核查”",
+            "url": "https://news.un.org/feed/view/zh/story/2026/11/1143225",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1795003200,
+            "time_label": "11.18 20:00"
+        },
+        {
+            "title": "经巴拿马北上人流减少九成，拉美移民转向新路线",
+            "url": "https://news.un.org/feed/view/zh/story/2026/11/1143224",
+            "source": "联合国新闻",
+            "source_key": "un_news_zh",
+            "lang": "zh",
+            "published": 1795003200,
+            "time_label": "11.18 20:00"
+        }
+    ],
+    "sources": {
+        "project_hn": {
+            "label": "Hacker News",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 146047,
+            "ms": 329,
+            "error": ""
+        },
+        "project_github_trending": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 18,
+            "bytes": 627903,
+            "ms": 1382,
+            "error": ""
+        },
+        "project_github": {
+            "label": "GitHub",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 40,
+            "bytes": 290716,
+            "ms": 1244,
+            "error": ""
+        },
+        "project_ph": {
+            "label": "Product Hunt",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 30,
+            "bytes": 44023,
+            "ms": 62,
+            "error": ""
+        },
+        "project_awwwards": {
+            "label": "Awwwards",
+            "group": "project",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 18336,
+            "ms": 345,
+            "error": ""
+        },
+        "news_chinanews_china": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 29,
+            "bytes": 13827,
+            "ms": 693,
+            "error": ""
+        },
+        "news_chinanews_scroll": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 28,
+            "bytes": 16482,
+            "ms": 693,
+            "error": ""
+        },
+        "news_chinanews_import": {
+            "label": "中国新闻网",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 29,
+            "bytes": 14082,
+            "ms": 692,
+            "error": ""
+        },
+        "news_tmtpost": {
+            "label": "钛媒体",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 19,
+            "bytes": 288043,
+            "ms": 3115,
+            "error": ""
+        },
+        "news_ifanr": {
+            "label": "爱范儿",
+            "group": "news_cn",
+            "ok": true,
+            "status": 200,
+            "items": 6,
+            "bytes": 515990,
+            "ms": 2337,
+            "error": ""
+        },
+        "news_chinanews_world": {
+            "label": "中国新闻网",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 29,
+            "bytes": 15142,
+            "ms": 812,
+            "error": ""
+        },
+        "news_un_news_zh": {
+            "label": "联合国新闻",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 5,
+            "bytes": 35401,
+            "ms": 40,
+            "error": ""
+        },
+        "news_cgtn_world": {
+            "label": "CGTN",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 31,
+            "bytes": 183573,
+            "ms": 455,
+            "error": ""
+        },
+        "news_npr_world": {
+            "label": "NPR World",
+            "group": "news_intl",
+            "ok": true,
+            "status": 200,
+            "items": 10,
+            "bytes": 14035,
+            "ms": 266,
+            "error": ""
+        }
+    },
+    "errors": [],
+    "build_ms": 3920
+}
